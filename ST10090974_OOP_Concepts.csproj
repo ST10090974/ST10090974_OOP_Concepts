@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ST10090974_OOP_Concepts.Abstraction.ExecuteStudent</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\BCADStudent.cs" />
+    <Compile Include="Abstraction\ExecuteStudent.cs" />
+    <Compile Include="Abstraction\Student.cs" />
+    <Compile Include="Polymorphism\Circle.cs" />
+    <Compile Include="Polymorphism\ShapeTesting.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Square.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
+    <Compile Include="Polymorphism\Shape.cs" />
+    <Compile Include="Polymorphism\Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

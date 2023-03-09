@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ST10090974_OOP_Concepts
+namespace ST10090974_OOP_Concepts.Polymorphism
 {
     internal class Shape
     {
-        double length;
-        double width;
+        protected double length;
+        protected double width;
 
         public Shape()
         {
@@ -22,7 +22,7 @@ namespace ST10090974_OOP_Concepts
             width = w;
         }
 
-        public double calculate()
+        public virtual double calculate()
         {
             return length * width;
         }

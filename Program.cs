@@ -10,12 +10,7 @@ namespace ST10090974_OOP_Concepts
     {
         static void Main(string[] args)
         {
-            double x = 7;
-            double y = 7;
-
-            Shape sha = new Shape(x,y);
-            Console.WriteLine("Area: " + sha.calculate());
-            Console.ReadLine();
+            
             
         }
     }
