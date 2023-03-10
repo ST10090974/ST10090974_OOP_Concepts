@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ST10090974_OOP_Concepts.Abstraction.ExecuteStudent</StartupObject>
+    <StartupObject>ST10090974_OOP_Concepts.Encapsulation.CarTester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,12 @@
     <Compile Include="Abstraction\BCADStudent.cs" />
     <Compile Include="Abstraction\ExecuteStudent.cs" />
     <Compile Include="Abstraction\Student.cs" />
+    <Compile Include="Encapsulation\Car.cs" />
+    <Compile Include="Encapsulation\CarTester.cs" />
+    <Compile Include="Interfaces\ExecuteShape.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IShape.cs" />
+    <Compile Include="Interfaces\Rectangle.cs" />
     <Compile Include="Polymorphism\Circle.cs" />
     <Compile Include="Polymorphism\ShapeTesting.cs" />
     <Compile Include="Polymorphism\Triangle.cs" />
